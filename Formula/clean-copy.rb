@@ -1,9 +1,9 @@
 class CleanCopy < Formula
   desc "Copy/paste text as clean Markdown from your terminal"
   homepage "https://github.com/mahope/clean-copy-cli"
-  url "https://github.com/mahope/clean-copy-cli/releases/download/v1.0.0/clean-copy-1.0.0.tar.gz"
-  version "1.0.0"
-  sha256 "da3f963ec3586a95a575a18424da650946a0a888e75ecb001d6b734048653c39"
+  url "https://github.com/mahope/clean-copy-cli/releases/download/v1.1.0/clean-copy-1.1.0.tar.gz"
+  version "1.1.0"
+  sha256 "b3bfb73254d0bb1e3e8f191dc13885c2fed2e1836dbb95faa4370914daa63a34"
 
   depends_on "node"
 
