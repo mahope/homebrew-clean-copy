@@ -3,7 +3,7 @@ class CleanCopy < Formula
   homepage "https://github.com/mahope/clean-copy-cli"
   url "https://github.com/mahope/clean-copy-cli/releases/download/v1.4.6/clean-copy-1.4.6.tar.gz"
   version "1.4.6"
-  sha256 "bc2990f9dbe1ca040ae0e8ae756f04cb211a19e33ac168c221ec179f9312b00d"
+  sha256 "e8bc5c1eda528dc209bc8083c5d28a4dbfa86a6b2b5755f65c942d45d059b3cb"
 
   depends_on "node"
 
