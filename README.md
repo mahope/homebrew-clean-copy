@@ -1,12 +1,23 @@
-# homebrew-clean-copy
+# homebrew-clean-copy (deprecated)
 
-Homebrew tap for [clean-copy](https://github.com/mahope/clean-copy-cli) — copy/paste text as clean Markdown from your terminal.
+**This tap is deprecated.** clean-copy now lives in the canonical tap
+[`mahope/homebrew-tap`](https://github.com/mahope/homebrew-tap) together with
+the other mahope CLIs, and only that tap is updated automatically on new
+releases. The formula here is left in place so existing installs keep working,
+but it will not receive new versions.
 
-## Install
+## Install (use this instead)
 
 ```bash
-brew tap mahope/clean-copy
-brew install clean-copy
+brew install mahope/tap/clean-copy
+```
+
+If you installed from this tap earlier:
+
+```bash
+brew uninstall clean-copy
+brew untap mahope/clean-copy
+brew install mahope/tap/clean-copy
 ```
 
 ## Author
